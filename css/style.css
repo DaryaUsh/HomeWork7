@@ -969,7 +969,7 @@ a {
     }
 
     .patch1 {
-        max-width: 460px;
+        max-width: 100%;
         font-size: 13px;
         line-height: 17.7px;
         margin-left: 10px;
@@ -978,12 +978,12 @@ a {
     }
 
     .patch2 {
-        max-width: 460px;
+        max-width: 100%;
         margin-left: 10px;
     }
 
     .input {
-        width: 60vw;
+        width: 55vw;
     }
 
     .primech {
@@ -991,7 +991,7 @@ a {
     }
     
     .pprim {
-        width: 439px;
+        width: 100%;
     }
 
     .section7 {
@@ -1062,7 +1062,7 @@ a {
     }
 
     .ddop {
-        width: 480px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         gap: 60px;
@@ -1085,6 +1085,7 @@ a {
         margin-left: 0px;
         justify-content: center;
         width: 25%;
+        gap: 5px;
     }
 
 
@@ -1092,7 +1093,7 @@ a {
         width: 100%;
         display: flex;
         justify-content:space-between;
-        gap: 153px;
+        gap: none;
         padding-right: 10px;
     }
 
@@ -1189,12 +1190,5 @@ a {
     .copyright {
         gap: 0px;
     }
-
-
-
-
-
-
-
-
+    
 }
