@@ -85,7 +85,7 @@ a {
 .icon {
     width: Hug (180px)px;
     height: Hug (29px)px;
-    gap: 100px;
+    gap: 50px;
     display: flex;
 }
 
@@ -97,12 +97,13 @@ a {
 }
 
 .main {
+    max-width: 1220 px;
     display: block;
     margin: 0 auto;
 }
 
 .section1{
-
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -123,20 +124,23 @@ a {
     margin: 0 auto;
 }
 
+.img4 {
+    display: none;
+    margin: 0 auto;
+}
+
+
 .section2 {
-    display: block;
     font-family: Cormorant;
     font-size: 40px;
     font-style: italic;
     font-weight: 300;
-    line-height: 48.44px;
+    line-height: 1.21;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    max-width: 704px;
-    max-height: 96px;
-    margin: 0 auto;
+    max-width: 100%;
     text-align: center;
-    margin-top: 150px;
+    padding: 150px 100px;
 }
 
 .section3 {
@@ -145,15 +149,14 @@ a {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 0 auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding: 0px 10px 150px 10px;
 }
 
 .h2{
     font-family: Cormorant;
     font-size: 40px;
     font-weight: 400;
-    line-height: 48.44px;
+    line-height: 0.83;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -171,7 +174,7 @@ a {
     font-family: Cormorant;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29.06px;
+    line-height: 1.21;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 0 auto;
@@ -183,12 +186,11 @@ a {
 }
 
 .section4 {
-    display: block;
-    max-width: 1600px;
+    display: grid;
+    max-width: 1200px;
     background: #F7F2EA;
-    padding-top: 60px;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding: 60px 10px;
 }
 
 .container2 {
@@ -200,7 +202,7 @@ a {
     font-family: Cormorant;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29.06px;
+    line-height: 1.21;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin: 0 auto;
@@ -243,49 +245,48 @@ a {
 
 .section5 {
     display: block;
-    width: 1142px;
-    border: 1px 0px 0px 0px;
+    max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding: 150px 10px;
+
 }
 
 .container3 {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 60px;
+    gap: 20px;
+    padding-bottom: 60px;
 }
 
 .blog {
     display: flex;
-    width: 542px;
+    width: 49%;
     gap: 20px;
+}
+
+.blog img {
+    width: 47%;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .about {
     width: 100%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
-.blog img {
-    width: 270px;
-    height: 180px;
-    gap: 0px;
-    opacity: 0px;
-}
+
 .h3 {
     font-family: Cormorant;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29.06px;
+    line-height: 1.21;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    display: grid;
-    margin-bottom: 10px;
 }
 
 .p {
@@ -296,47 +297,33 @@ a {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    display: flex;
-    flex-direction: column;
+    flex: auto;
 }
 
 .more {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
-    bottom: auto;
-}
-.more img {
-    width: 5px;
-    height: 10px;
-    margin-left: 8px;
-    
 }
 
- .section5 .button {
-    width: Hug (149px)px;
-    height: Hug (51px)px;
+.section5 .button {
+    display: flex;
     padding: 12px 41px 12px 41px;
-    border: 1px 0px 0px 0px;
-    margin: 0 auto;
-    align-items: end;
-
+    border: 1px solid #151618;
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 300px;
-    line-height: 27.24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    line-height: 1.36;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .section6 {
+    display: grid;
+    max-width: 1200px;
     background: #F7F2EA;
-    max-width: 1600px;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 200px;
+    padding: 60px 10px;
 }
 
 .imgfon {
@@ -436,17 +423,14 @@ a {
 }
 
 .section7 {
-    width: 1199px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 150px 10px;
 }
 
 .container4 {
     display: flex;
-    width: Hug (1,199px)px;
-    height: Fixed (178px)px;
-    gap: 49px;
+    gap: 40px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -484,14 +468,16 @@ a {
 
 .footer {
     background: #F7F2EA;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .section8 {
-    width: 1199px;
+    max-width: 100%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 60px 10px 0px 10px;
+    background: #F7F2EA;
 }
 
 .section8-1 {
@@ -509,7 +495,7 @@ a {
     font-family: Cormorant;
     font-size: 24px;
     font-weight: 400;
-    line-height: 29.06px;
+    line-height: 1.21;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -569,7 +555,7 @@ a {
 
 .dop {
     display: flex;
-    width: 270px;
+    width: 100%;
     gap: 40px;
     margin-bottom: 50px;
 }
@@ -577,11 +563,11 @@ a {
     font-family: Open Sans;
     font-size: 13px;
     font-weight: 300;
-    line-height: 17.7px;
+    line-height: 1.36;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 270px;
+    width: 100%;
 }
 
 .footer-logo{
@@ -626,7 +612,6 @@ a {
     height: 22px;
     gap: 20px;
     display: flex;
-    margin-left: 97px;
 }
 
 .copyright {
@@ -659,15 +644,15 @@ a {
 
 @media (max-width: 768px) {
     .header {
-        max-width: 640px;
+        max-width: 100%;
+        padding-left: 64px;
+        padding-right: 64px;
     }
     .nav {
         display: flex;
         margin: 0 auto;
     }
-    .icon {
-        gap: 50px;
-    }
+
 
     .main {
         display: block;
@@ -722,31 +707,19 @@ a {
     transform: translateX(100%);
     }
     */
-    .section1{
-        margin: 0;
-        padding: 0;
-    }
+
 
     .section2 {
-        font-family: Open Sans;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: 300;
-        line-height: 21.79px;
-        text-align: center;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-
         margin: 0 auto;
         padding-top: 120px;
         padding-bottom: 120px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .section3 {
         width: 100%;
-        margin-bottom: 120px;
+        padding-bottom: 0px;
     }
 
     .h2 {
@@ -757,17 +730,17 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 60px;
         align-items: center;
+        padding-bottom: 120px;
     }
 
     .section4 {
-        width: 768px;
+        width: 100%;
         padding-bottom: 82px;
     }
 
     .container2 {
-        width: 768px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -777,26 +750,32 @@ a {
     }
 
     .section5 {
-        width: 640px;
-        margin-top: 120px;
-        margin-bottom: 121px;
+        width: 100%;
+        padding: 120px 64px;
     }
     .container3 {
-        width: 640px;
-        display: grid;
+        width: 100%;
         margin: 0px;
         padding-bottom: 60px;
     }
 
-    .right {
-        margin-left: 98px;
+    .blog {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .blog:nth-child(even) {
+        padding-left: 98px;
+    }
+
+    .blog img {
+        width: 270px;
     }
 
     .section6 {
-        width: 769px;
-        padding-left: 0;
-        padding-top: 59px;
-        padding-bottom: 59.55px;
+        width: 768px;
+        padding: 60px 10px;
     }
 
     .section6 .h2{
@@ -837,6 +816,7 @@ a {
     .section8 {
         width: 100%;
         padding-left: 64px;
+        padding-right: 64px;
         padding-top: 50px;
     }
 
@@ -874,17 +854,17 @@ a {
     
     .header {
         max-width: 100%;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .logo {
         width: 39px;
         height: 56px;
         margin-bottom: 25px;
-    
     }
+    
 
     .main {
         display: block;
@@ -902,7 +882,8 @@ a {
         width: 100%;
     }
 
-    .section1{
+
+    .section2 {
         font-family: Open Sans;
         font-size: 16px;
         font-style: italic;
@@ -911,18 +892,15 @@ a {
         text-align: center;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-    }
-
-    .section2 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        padding-left: 50px;
-        padding-right: 54px;
+        padding: 70px 50px;
     }
 
     .section3 {
         width: 100%;
-        margin-bottom: 60px;
+    }
+
+    .container {
+        padding-bottom: 70px;
     }
 
     .h2 {
@@ -948,10 +926,7 @@ a {
         width: 100%;
         margin-top: 60px;
         margin-bottom: 60px;
-    }
-
-    .right {
-        margin-left: 0px;
+        padding: 0 10px;
     }
 
     .container3{
@@ -966,9 +941,21 @@ a {
         width: 100%;
     }
 
+    .blog:nth-child(even) {
+        padding-left: 0px;
+    }
+
     .blog img {
         width: 230px;
         height: 153px;
+    }
+
+    .blog h3 {
+        display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
     }
     
     .section6 {
@@ -1021,19 +1008,20 @@ a {
     .section8 {
         width: 100%;
         padding-top: 50px;
-        padding-left: 10px;
+        padding: 0 10px;
     }
 
     .section8-1 {
         width: 100%;
         display: block;
         margin-bottom: 50px;
+
     }
 
     .partition1-2 {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        gap: 113px;
         padding-bottom: 50px;
     }
 
@@ -1059,7 +1047,7 @@ a {
 
     .partition4 {
         max-width: 100%;
-
+        
     }
 
     .partition4 .footer-text1 {
@@ -1074,28 +1062,29 @@ a {
     }
 
     .ddop {
-        width: 100%;
+        width: 480px;
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 60px;
 
     }
     .dop {
-        width: 100%;
+        width: 240px;
         display: flex;
-        gap: 30px;
-        justify-content: center;
+        gap: 40px;
+
     }
     .contacts {
-
         justify-content: center;
+        width: 160px;
+
     }
 
     .footer-soc-set {
         margin-top: 60px;
         margin-left: 0px;
         justify-content: center;
+        width: 25%;
     }
 
 
@@ -1103,8 +1092,109 @@ a {
         width: 100%;
         display: flex;
         justify-content:space-between;
-        gap: auto;
+        gap: 153px;
         padding-right: 10px;
     }
+
+}
+
+@media (max-width: 419.8px) {
+
+    .section2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .section5 {
+        max-width: 100%;
+        padding: 0 45px;
+    }
+
+    .h2{
+        font-size: 24px; 
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 390px) {
+  
+    .icon {
+        gap: 20px;
+    }
+    
+    .img3{
+        display: none;
+    }
+
+    .img4 {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .container img{
+        width: 185px;
+        height: 185px;
+    }
+
+    .text:nth-child(3),
+    .text:nth-child(4) {
+        display: none;
+    }
+
+    .text {
+        max-width: 100%;
+    }
+
+    .blog:nth-child(3),
+    .blog:nth-child(4) {
+        display: none;
+    }
+
+
+    .patch2 {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .bJoin {
+        margin-left: 15px;
+    }
+
+    .ddop {
+        width: 100%;
+        gap: 0px;
+    }
+
+    .footer-soc-set {
+        margin-left: 0px;
+        margin-top: 0px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .copyright {
+        gap: 0px;
+    }
+
+
+
+
+
+
+
 
 }
